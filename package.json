@@ -1,0 +1,39 @@
+{
+  "name": "leaderboard",
+  "version": "1.0.0",
+  "description": "This project is about simple  using webpack and gitflow.",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "dev": "webpack server",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/supreeti/Leaderboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supreeti/Leaderboard/issues"
+  },
+  "homepage": "https://github.com/supreeti/Leaderboard#readme",
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "csv-loader": "^3.0.5",
+    "html-webpack-plugin": "^5.5.1",
+    "jest": "^29.5.0",
+    "style-loader": "^3.3.2",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0",
+    "lodash": "^4.17.21"
+  }
+}
