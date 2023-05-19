@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+  list-style: none;
+}
+
+.leaderboard {
+  width: 80%;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  align-items: center;
+  gap: 25px;
+}
+
+.scores {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+h3 {
+  text-align: center;
+  color: black;
+}
+
+button {
+  border: 1px solid black;
+  font-size: 16px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+li:nth-child(even) {
+  background: whitesmoke;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid blue;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
