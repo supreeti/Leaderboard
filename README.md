@@ -7,7 +7,7 @@ This project is about simple  using webpack and gitflow.
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-  - [🚀 Live Demo](#live-demo)
+ <!-- - [🚀 Live Demo](#live-demo)-->
 - [💻 Getting Started](#getting-started)
 - [Install](#install)
 - [👥 Authors](#authors)
@@ -28,13 +28,13 @@ This project is about simple  using webpack and gitflow.
 - Javascript ES6
 - Webpack
 
-<!-- LIVE DEMO -->
+<!-- LIVE DEMO
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link]()
   Coming soon
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>.  -->
 
 <!-- GETTING STARTED -->
 
