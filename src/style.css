@@ -11,14 +11,14 @@
   align-items: stretch;
   justify-content: space-between;
 }
-  
+
 .main {
   display: grid;
   grid-template-columns: 2fr 2fr;
   align-items: center;
   gap: 25px;
 }
-  
+
 .scores {
   display: flex;
   justify-content: space-between;
