@@ -5,7 +5,7 @@ const game = async (gameUrl, scores) => {
     newData.result.forEach((score) => {
       const li = document.createElement('tr');
       li.classList.add('score');
-      li.innerHTML = `<tr><td>${score.user}</td> <td>${score.score}</td></tr>`;
+      li.innerHTML = `<tr><td>${score.user}</td> :<td>${score.score}</td></tr>`;
       scores.appendChild(li);
     });
   });
