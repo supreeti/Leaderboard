@@ -7,7 +7,7 @@
 }
 
 body {
-background-color: rgb(196, 244, 244);
+  background-color: rgb(196, 244, 244);
 }
 
 h1 {
@@ -16,7 +16,7 @@ h1 {
   padding-left: 50px;
   margin-bottom: 20px;
   color: rgb(29, 25, 248);
-  background-color:rgb(174, 176, 176);
+  background-color: rgb(174, 176, 176);
 }
 
 .main {
@@ -24,7 +24,7 @@ h1 {
   grid-template-columns: 1fr 1fr;
   grid-gap: 100px;
   width: 90%;
-  margin: 30px auto; 
+  margin: 30px auto;
 }
 
 .scores {
@@ -45,7 +45,7 @@ button {
   border-radius: 2px;
   background-color: teal;
   color: aliceblue;
-  box-shadow: 2px;
+  box-shadow: rgb(174, 176, 176);
   font-size: 24px;
   align-self: center;
 }
@@ -86,7 +86,7 @@ tr:nth-child(odd) {
 
 .add {
   border: 1px solid black;
-  background-color:rgb(245, 249, 249);
+  background-color: rgb(245, 249, 249);
   margin-right: 10px;
   width: 70%;
 }
@@ -109,6 +109,4 @@ form input {
   width: 100px;
   height: 30px;
   margin-top: 16px;
-  padding: 10px;
 }
-
