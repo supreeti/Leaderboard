@@ -7,25 +7,32 @@
     <title>Leaderboard</title>
 <script defer src="runtime.bundle.js"></script><script defer src="bundle.bundle.js"></script></head>
 <body>
-        <div class="leaderboard">
-            <h1>Leaderboard</h1>
+        <header>
+            <h1>Leaderboard</h1></header>
             <section class="main">
             <div>
                 <div id="recent" class="scores">
-                        <h3>Recent scores</h3>
-                        <button id="refresh" type="submit">Refresh</button>
-                    </div>
-                    <div id="scoreboard"></div>
+                        <h3>Recent scores
+                       <span><button id="refresh" type="submit">Refresh</button></span> </h3>
+                        <table>
+                            <thead>
+                                <th>Name : Scores</th>
+                             </thead>
+                         
+                          <tr id="scoreboard"></tr>
+                        </table>
+                        </div>
                 </div>
-                <div>
-                    <h3>Add your score</h3>
-                    <form id="add">
-                        <input id="name" type="text" placeholder="Name" name="name" required> <br>
-                        <input id="score" type="number" placeholder="Score" name="score" minlength="0" maxlength="500" required><br>
+                <div class="add">
+                    <h3>Add your score</h3>  
+                    <form  method="post" id="add">
+                        <input id="name" type="text" placeholder="Your name" name="name" minlength="2" maxlength="500" required> <br>
+                        <input id="score" type="number" placeholder="Your score" name="score" min="0" maxlength="500" required><br>
                         <button id="submit" type="submit">Submit</button>
+                        <div class="success-message message"></div>
                     </form>
                 </div>
             </section>
-        </div>
+        
 </body>
 </html>

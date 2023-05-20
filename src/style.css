@@ -2,54 +2,105 @@
   box-sizing: border-box;
   margin: 0;
   border: 0;
-  padding-left: 20px;
+  padding: 0;
   list-style: none;
 }
 
-.leaderboard {
-  width: 80%;
-  align-items: stretch;
-  justify-content: space-between;
+body {
+  background-color: whitesmoke;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 54px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  color: black;
 }
 
 .main {
   display: grid;
   grid-template-columns: 2fr 2fr;
-  align-items: center;
-  gap: 25px;
+  grid-gap: 50px;
+  width: 90%;
+  margin: 30px auto;
 }
 
 .scores {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 16px;
+  display: inline;
+}
+
+.scoreboard {
+  border: 1px solid black;
 }
 
 h3 {
   text-align: center;
+  font-size: 32px;
+  font-weight: 400;
   color: black;
+  margin-bottom: 10px;
 }
 
 button {
   border: 1px solid black;
-  font-size: 16px;
-  cursor: pointer;
+  box-shadow: 5px 5px;
+  border-radius: 2px;
+  background-color: white;
+  color: black;
+  font-size: 24px;
   align-self: flex-end;
 }
 
-li:nth-child(even) {
-  background: whitesmoke;
+button:hover {
+  color: black;
+  background-color: burlywood;
+  cursor: pointer;
+}
+
+table {
+  width: 90%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+th {
+  height: 30px;
+  font-size: 18px;
+  background-color: gray;
+}
+
+tr td:nth-child(odd) {
+  padding-left: 20px;
+}
+
+tr td:nth-child(even) {
+  padding-left: 70px;
+}
+
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+.add {
+  margin-right: 10px;
 }
 
 form {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  font-size: 24px;
+  width: 95%;
 }
 
 form input {
-  padding: 10px;
-  border: 1px solid blue;
+  padding-left: 10px;
+  border: 1px solid black;
+  color: black;
   font-size: 16px;
-  margin-bottom: 16px;
+  width: 95%;
+  height: 30px;
+  margin-top: 5px;
 }
