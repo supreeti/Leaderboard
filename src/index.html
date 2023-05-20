@@ -7,28 +7,25 @@
     <title>Leaderboard</title>
 </head>
 <body>
-    <div class="leaderboard">
-        <h1>Leaderboard</h1>
-        <section class="main">
-          <div>
-            <div class="scores">
-              <h3>Recent scores</h3>
-              
-            <button type="reset" class="refresh">Refresh</button>
+        <div class="leaderboard">
+            <h1>Leaderboard</h1>
+            <section class="main">
+            <div>
+                <div id="recent" class="scores">
+                        <h3>Recent scores</h3>
+                        <button id="refresh" type="submit">Refresh</button>
+                    </div>
+                    <div id="scoreboard"></div>
+                </div>
+                <div>
+                    <h3>Add your score</h3>
+                    <form id="add">
+                        <input id="name" type="text" placeholder="Name" name="name" required> <br>
+                        <input id="score" type="number" placeholder="Score" name="score" minlength="0" maxlength="500" required><br>
+                        <button id="submit" type="submit">Submit</button>
+                    </form>
+                </div>
+            </section>
         </div>
-            <div id="scoreboard"></div>
-          </div> 
-          <div>
-            <h3>Add your score</h3>
-            <form>
-              
-              <input type="text" id="name" placeholder="Your Name" required/>
-              <input type="number" id="score" placeholder="Your Score" min="0" max="500" required/>
-              
-             <button type="submit" class="submit">Submit</button>
-           </form>
-          </div>
-        </section>
-    </div>
-  </body>
+</body>
 </html>
